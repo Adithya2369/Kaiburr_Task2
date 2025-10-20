@@ -1,7 +1,7 @@
 # Task 2 – Kubernetes Deployment (Kaiburr Assessment)
 
 This repository contains the **Kubernetes-based deployment (KTO)** of the Spring Boot application developed in **Task 1**.  
-You can refer to Task 1 implementation here: [[Task 1](https://github.com/Adithya2369/Kaiburr_Task1)]
+You can refer to Task 1 implementation here: [Task 1(https://github.com/Adithya2369/Kaiburr_Task1)]
 
 ---
 
@@ -167,6 +167,49 @@ curl -X PUT http://localhost:30007/tasks -H "Content-Type: application/json" -d 
 ```
 
 ---
+
+## 🧾 Screenshots and Execution Outputs
+
+### Building and Pushing Docker Image
+
+**Building Docker Container**
+
+<img src="https://github.com/Adithya2369/Kaiburr_Task2/blob/be57a75673bf9145f496411ed091bc8c5cfca440/images/1_building%20container%20of%20app.png" width="60%">
+
+**Pushed to Docker Hub**
+
+<img src="https://github.com/Adithya2369/Kaiburr_Task2/blob/be57a75673bf9145f496411ed091bc8c5cfca440/images/1_pushed%20to%20hub.png" width="90%">
+
+### Kubernetes Deployment
+
+**Applying Kubernetes YAML Files**
+
+<img src="https://github.com/Adithya2369/Kaiburr_Task2/blob/be57a75673bf9145f496411ed091bc8c5cfca440/images/2_yml%20exec.png" width="60%">
+
+**Deployment and Pod Status**
+
+<img src="https://github.com/Adithya2369/Kaiburr_Task2/blob/be57a75673bf9145f496411ed091bc8c5cfca440/images/3_deploymentpod.png" width="60%">
+
+### Testing the Application
+
+**Adding Data Using Curl**
+
+<img src="https://github.com/Adithya2369/Kaiburr_Task2/blob/be57a75673bf9145f496411ed091bc8c5cfca440/images/4_Add%20data%20using%20curl.png" width="60%">
+
+**Getting Data Using Browser**
+
+<img src="https://github.com/Adithya2369/Kaiburr_Task2/blob/be57a75673bf9145f496411ed091bc8c5cfca440/images/4_getdata%20using%20browser.png" width="60%">
+
+### API Operations
+
+**Other Operations Using Curl**
+
+<img src="https://github.com/Adithya2369/Kaiburr_Task2/blob/be57a75673bf9145f496411ed091bc8c5cfca440/images/5_other%20operations%20using%20curl.png" width="60%">
+
+The application supports full CRUD operations including `GET`, `POST`, `PUT`, and `DELETE` requests.
+
+---
+
 
 ## ⏳ Pending Work – BusyBox TaskExecution
 
