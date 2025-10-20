@@ -168,6 +168,20 @@ curl -X PUT http://localhost:30007/tasks -H "Content-Type: application/json" -d 
 
 ---
 
+## ⏳ Pending Work – BusyBox TaskExecution
+
+The remaining part of Task 2 is to implement **dynamic task execution using BusyBox pods**.  
+
+- Each task contains a shell command in the `command` field.  
+- The goal is to create a **temporary BusyBox pod** via the Kubernetes Java client that executes the task’s command.  
+- After execution, the pod can be deleted automatically.  
+
+Once this is implemented, Task 2 will be fully complete, demonstrating:
+- Spring Boot + MongoDB integration on Kubernetes  
+- Dynamic command execution via Kubernetes pods
+
+---
+
 ## 👨‍💻 Author
 **Adithya Reddy**  
 Kaiburr Assessment 2025 — Task 2:   Kubernetes \
